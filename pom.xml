@@ -51,4 +51,11 @@
             <version>${log4j.version}</version>
         </dependency>
     </dependencies>
+    <scm>
+        <connection>scm:git:https://github.com/taverna/taverna-engine-provenance-mysql.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:taverna/taverna-engine-provenance-mysql.git</developerConnection>
+        <url>https://github.com/taverna/taverna-engine-provenance-mysql</url>
+        <tag>HEAD</tag>
+    </scm>
+
 </project>
