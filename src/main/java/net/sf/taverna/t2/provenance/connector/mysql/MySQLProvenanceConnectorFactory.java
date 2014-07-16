@@ -5,12 +5,13 @@ import uk.org.taverna.configuration.database.DatabaseManager;
 import net.sf.taverna.t2.provenance.ProvenanceConnectorFactory;
 import net.sf.taverna.t2.provenance.api.ProvenanceConnectorType;
 import net.sf.taverna.t2.provenance.connector.ProvenanceConnector;
+//July 2014 XMLSerializer removed so this will not build
 import net.sf.taverna.t2.workflowmodel.serialization.xml.XMLSerializer;
 
 public class MySQLProvenanceConnectorFactory implements ProvenanceConnectorFactory{
 
 	private DatabaseManager databaseManager;
-	private XMLSerializer xmlSerializer;
+//	private XMLSerializer xmlSerializer;
 
 	public String getConnectorType() {
 		return ProvenanceConnectorType.MYSQL;
